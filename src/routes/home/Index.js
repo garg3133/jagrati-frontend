@@ -1,7 +1,7 @@
-import Header from './Header'
-import Navbar from './Navbar'
-import Showcase from './Showcase'
-import Contact from './Contact'
+import Header from 'components/home/Header'
+import Navbar from 'components/home/Navbar'
+import Showcase from 'components/home/Showcase'
+import Contact from 'components/home/Contact'
 
 
 const Home = () => {
