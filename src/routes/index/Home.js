@@ -11,10 +11,8 @@ const Home = () => {
         <>
             <IndexHeader />
             <IndexNavbar />
-            <div className="container">
-                <Showcase />
-                <Contact />
-            </div>
+            <Showcase />
+            <Contact />
             <Footer />
         </>
 

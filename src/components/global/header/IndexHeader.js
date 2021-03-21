@@ -1,5 +1,5 @@
 import './IndexHeader.css'
-import logo from '../../../logo.png'
+import logo from 'static/logo.png'
 
 const IndexHeader = () => {
   return (

@@ -1,40 +1,57 @@
-header{
-	background: #666;
-	min-height: 60px;
+header {
+  background: #666;
+  min-height: 60px;
 }
 
-#branding{
-	float: left;
-	margin: 15px 0;
-	/* align-content: space-between; */
+#branding {
+  float: left;
+  margin: 15px 0;
+  /* align-content: space-between; */
 }
 
-#branding h1{
-	margin:0;
-	padding: 0;
-	color: orange;
-	font-size: 1.8em;
-	letter-spacing: -0.5px;
+#branding h1 {
+  margin: 0;
+  padding: 0;
+  color: orange;
+  font-size: 1.8em;
+  letter-spacing: -0.5px;
 }
 
-.branding1{
-	/* float:left; */
-	margin-top: -22px;
-	/* padding-left: 5px; */
-	/*font-size: 0.9em;
+.branding1 {
+  /* float:left; */
+  margin-top: -22px;
+  /* padding-left: 5px; */
+  /*font-size: 0.9em;
 	word-spacing: -0.5px;
 	letter-spacing: -0.5px;*/
-	margin-left: 90px;
+  margin-left: 90px;
 }
 
-.branding1 p{
-	margin: 0;
-	color: white;
+.branding1 p {
+  margin: 0;
+  color: white;
 }
 
-.logo{
-	/* background-image: url("../../logo.png"); */
-	margin: 5px 0px;
-	height: 60px;
-	float: right;
+.logo {
+  /* background-image: url("../../logo.png"); */
+  margin: 5px 0px;
+  height: 60px;
+  float: right;
+}
+
+@media (max-width: 400px) {
+  #branding {
+    margin: 11px 0;
+  }
+
+  .branding1 {
+    float: none;
+    display: block;
+    margin-top: -4px;
+    margin-left: 03px;
+  }
+
+  .logo {
+    height: 70px;
+  }
 }
