@@ -1,15 +1,13 @@
+import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Home from './routes/index/Home'
-import Header from 'components/global/header/Header';
-import Footer from 'components/global/footer/Footer';
-
+import AccountsRouter from 'routes/accounts/AccountsRouter';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Home />
-      <Footer />
-    </div>
+    <Router>
+      <Route path='/' exact component={Home} />
+      <Route path='/accounts' component={AccountsRouter} />
+    </Router>
   );
 }
 

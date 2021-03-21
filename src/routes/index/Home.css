@@ -1,0 +1,50 @@
+/*GLOBAL*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  background: #d4d4d4;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+a {
+  padding: 0px 0px;
+  text-decoration: none;
+  color: black;
+}
+
+.clr {
+  clear: both;
+}
+
+/*  Customized Scroll Bar - Chrome Only  - START */
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  /* background: #70707050; */
+  background: #ff8c00;
+}
+
+/* ::-webkit-scrollbar-thumb:hover {
+  background: var(--theme-dark-color-0);
+  background: #666;
+} */
+
+/*  Customized Scroll Bar - Chrome Only -  END */
