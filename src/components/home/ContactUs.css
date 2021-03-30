@@ -1,0 +1,57 @@
+.contactUs #contact-us {
+  text-align: center;
+  padding: 10px 0 0;
+  /*background-color: #616370;*/
+}
+
+.contactUs #contact-us h1 {
+  margin: 0;
+  padding: 5px 0 15px;
+}
+
+.contactUs #contact-us h1::after {
+  content: "";
+  display: block;
+  width: 13%;
+  margin: auto;
+  margin-top: 2px;
+  height: 2px;
+  background-color: #ff8c00;
+}
+
+.contactUs .con-box1 {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.contactUs .con-box1 p {
+  margin-top: 0;
+}
+
+.contactUs .con-box2 a {
+  padding: 0 10px;
+}
+
+.contactUs .con-box2 a:first-child:hover {
+  color: blue;
+}
+
+.contactUs .con-box2 a:nth-child(2):hover {
+  color: #fb3958;
+}
+
+.contactUs .con-box2 a:nth-child(3):hover {
+  color: red;
+}
+
+.contactUs .con-box2 a:last-child:hover {
+  color: white;
+}
+
+.contactUs #googleMap {
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
