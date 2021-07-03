@@ -1,15 +1,13 @@
 const Footer = () => {
     return (
-        <footer>
-            <center>
-                <div style={{
-                    maxWidth: "80%",
-                    margin: "auto",
-                    overflow: "hidden",
-                }}>
-                    Jagrati Copyright &copy; {(new Date().getFullYear())}
-                </div>
-            </center>
+        <footer style={{
+                textAlign: "center",
+                padding: "10px",
+                overflow: "hidden",
+                backgroundColor: "black",
+                color: "white",
+            }}>
+            Jagrati Copyright &copy; {(new Date().getFullYear())}
         </footer >
     )
 }
